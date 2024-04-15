@@ -2,7 +2,7 @@ package user
 
 import (
 	"errors"
-	"gyu-api-sdk/sdk"
+	"github.com/GyuXiao/gyu-api-sdk/sdk"
 )
 
 type Client struct {

@@ -1,10 +1,10 @@
 package sdk
 
 import (
+	"github.com/GyuXiao/gyu-api-sdk/sdk/logs"
+	"github.com/GyuXiao/gyu-api-sdk/sdk/request"
+	"github.com/GyuXiao/gyu-api-sdk/sdk/response"
 	"github.com/duke-git/lancet/v2/random"
-	"gyu-api-sdk/sdk/logs"
-	"gyu-api-sdk/sdk/request"
-	"gyu-api-sdk/sdk/response"
 	"net/http"
 	"strconv"
 	"strings"

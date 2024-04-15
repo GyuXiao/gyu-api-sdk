@@ -1,4 +1,4 @@
-module gyu-api-sdk
+module github.com/GyuXiao/gyu-api-sdk
 
 go 1.20
 

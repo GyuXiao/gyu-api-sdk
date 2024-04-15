@@ -21,3 +21,9 @@ F
 examples/user.go,5\0\50670ae24226021d226b354a06f02faf86b306e5
 D
 service/user/user.go,d\d\dd5ee7869855e6a41af6e69c53d3186505a24444
+6
+go.mod,c\4\c47645c391ad0571c40779079363c9d48412e18b
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e

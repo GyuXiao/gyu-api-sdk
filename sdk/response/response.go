@@ -3,7 +3,7 @@ package response
 import (
 	"encoding/json"
 	"fmt"
-	"gyu-api-sdk/sdk/errors"
+	"github.com/GyuXiao/gyu-api-sdk/sdk/errors"
 	"io/ioutil"
 	"net/http"
 )

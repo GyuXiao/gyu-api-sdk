@@ -2,10 +2,10 @@ package main
 
 import (
 	"encoding/json"
-	"gyu-api-sdk/sdk"
-	"gyu-api-sdk/sdk/request"
-	"gyu-api-sdk/sdk/response"
-	"gyu-api-sdk/service/user"
+	"github.com/GyuXiao/gyu-api-sdk/sdk"
+	"github.com/GyuXiao/gyu-api-sdk/sdk/request"
+	"github.com/GyuXiao/gyu-api-sdk/sdk/response"
+	"github.com/GyuXiao/gyu-api-sdk/service/user"
 )
 
 var accessKey string = "gyu"
