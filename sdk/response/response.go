@@ -27,7 +27,7 @@ func (r *BaseResponse) ParseErrorFromHTTPResponse(body []byte) error {
 	if err != nil {
 		return err
 	}
-	if r.Code > 0 {
+	if r.Code != 200 {
 		return errors.NewSDKError(r.Code, r.Msg)
 	}
 	return nil
