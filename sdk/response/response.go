@@ -13,8 +13,9 @@ type Response interface {
 }
 
 type ErrorResponse struct {
-	Code int    `json:"code"`
-	Msg  string `json:"msg,omitempty"`
+	Code int         `json:"code"`
+	Msg  string      `json:"msg,omitempty"`
+	Data interface{} `json:"data,omitempty"`
 }
 
 type BaseResponse struct {

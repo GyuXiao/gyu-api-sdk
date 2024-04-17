@@ -32,7 +32,8 @@ func main() {
 		Body:   string(userJson),
 	}
 	// 通过 client 发起请求
-	err = client.Send(req, &response.BaseResponse{})
+	resp := &response.BaseResponse{}
+	err = client.Send(req, resp)
 	if err != nil {
 		client.Logger.Errorf("客户端请求错误: %v", err)
 	}
