@@ -4,6 +4,7 @@ type Request interface {
 	GetURL() string
 	GetMethod() string
 	GetBody() string
+	GetInterfaceInfoId() string
 	GetHeaders() map[string]string
 }
 
@@ -14,6 +15,7 @@ type BaseRequest struct {
 	Method string
 	Header map[string]string
 	Body   string
+	ItfId  string
 }
 
 func (r *BaseRequest) GetURL() string {
@@ -30,6 +32,10 @@ func (r *BaseRequest) GetBody() string {
 
 func (r *BaseRequest) GetHeaders() map[string]string {
 	return r.Header
+}
+
+func (r *BaseRequest) GetInterfaceInfoId() string {
+	return r.ItfId
 }
 
 func (r *BaseRequest) AddHeader(key, value string) {
